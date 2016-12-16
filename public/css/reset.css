@@ -1,1 +1,16 @@
-
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,td,img,div,dd,dt,dl{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+body{height:100%;font:100% Tahoma,Geneva,"Microsoft Yahei";color: #555}
+ul,ol{list-style-type:none;}
+input{vertical-align: middle;outline: none}
+a{text-decoration: none;color: inherit;}
+[target=_blank]:active{color: #5BE10B;}
+.clearFloat{zoom: 1;}
+.clearFloat:after{
+	display: block;
+	content: "1";
+	visibility: hidden;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+}

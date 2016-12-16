@@ -1,0 +1,340 @@
+@import "reset.css";
+body {
+  background: url("../images/t4_11_head_a_Bg.gif") top left repeat-x;
+}
+.header {
+  background: url("../images/t4_11_head_Bg.gif") no-repeat center top;
+  text-align: center;
+}
+.header .wrap {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  height: 84px;
+}
+.header .wrap .logo {
+  float: left;
+}
+.header .wrap .userInf {
+  float: right;
+  padding-right: 168px;
+}
+.header .wrap .userInf img {
+  padding-top: 54px;
+  margin: 0 20px;
+}
+.header .wrap .userInf .loginInfo {
+  font-size: 12px;
+  color: #cacaca;
+  display: inline-table;
+  width: 260px;
+  text-align: right;
+}
+.header .wrap .userInf .loginInfo a {
+  display: inline-table;
+  padding: 0 12px;
+  border-right: 1px dotted #fff;
+  color: #cacaca;
+}
+.header .wrap .userInf .loginInfo a:hover {
+  color: #AE8646;
+}
+.header .wrap .userInf .search {
+  position: absolute;
+  right: 0;
+  width: 153px;
+  height: 20px;
+  margin-top: -20px;
+  background: url("../images/t4_11_head_search_Bg.gif") no-repeat left top;
+}
+.header .wrap .userInf .search #search-b {
+  width: 125px;
+  margin: 2px 0 1px -10px;
+  border: 0;
+  background: none;
+  font-size: 12px;
+  color: #cacaca;
+}
+.header .menu-c {
+  position: relative;
+  height: 57px;
+  margin-top: -0.2%;
+  background: url("../images/t4_11_head_menu_Bg.gif") repeat-x left top;
+}
+.header .menu-c #menu {
+  position: absolute;
+  left: 50%;
+  width: 960px;
+  z-index: 9;
+  transform: translate(-50%, 0);
+}
+.header .menu-c #menu li {
+  float: left;
+  width: 115px;
+  line-height: 56px;
+}
+.header .menu-c #menu li a {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+.nav-bg-shop {
+  background: url("../images/t4_11_menu_ocBg.jpg") center bottom no-repeat;
+}
+.container {
+  background: url("../images/t4_12_contain_bg.png") left top;
+  margin-top: -2px;
+}
+.container .con-wrap {
+  width: 960px;
+  margin: 0 auto;
+  background: #f5f3f2;
+}
+.container .con-wrap .shop-left {
+  position: relative;
+  color: #000;
+  float: left;
+}
+.container .con-wrap .shop-left .shop-left-1 {
+  width: 215px;
+  height: 84px;
+  margin: 20px auto;
+  background: url("../images/T4_12_shc_leftDay.gif") no-repeat top center;
+}
+.container .con-wrap .shop-left .shop-left-1 #number-app {
+  padding: 15px 0 0 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.container .con-wrap .shop-left .shop-left-2 {
+  width: 203px;
+  height: 36px;
+  margin: 0 auto;
+  background: url("../images/T4_12_sc_leftNav_a.gif") no-repeat top center;
+}
+.container .con-wrap .shop-left .shop-left-2 h3 {
+  padding: 4px 0 0 20px;
+  color: #fff;
+  line-height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container .con-wrap .shop-left .shop-left-3 {
+  width: 203px;
+  margin: 0 auto;
+  background: url("../images/T4_12_sc_leftNav_b.gif") top center repeat-y;
+}
+.container .con-wrap .shop-left .shop-left-3 h4 {
+  padding: 8px 0 0 16px;
+  background: url("../images/T4_12_sc_leftNav_b_t.gif") no-repeat top center;
+}
+.container .con-wrap .shop-left .shop-left-3 h4 a {
+  float: left;
+  width: 35px;
+  height: 29px;
+  margin: 0 3px;
+  line-height: 26px;
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  background: url("../images/T4_12_sc_leftT_oc.gif") no-repeat left top;
+}
+.container .con-wrap .shop-left .shop-left-3 table {
+  border: none;
+  padding-left: 10px;
+}
+.container .con-wrap .shop-left .shop-left-3 table tr td {
+  font-size: 12px;
+  line-height: 28px;
+  border-bottom: 1px solid #f3f1e8;
+  color: #000;
+}
+.container .con-wrap .shop-left .shop-left-3 table tr .t-l {
+  width: 70%;
+  padding-left: 14px;
+}
+.container .con-wrap .shop-left .shop-left-3 table tr .t-l:hover {
+  cursor: pointer;
+  color: #AE8646;
+}
+.container .con-wrap .shop-left .shop-left-3 table tr .t-r {
+  padding-left: 18px;
+  width: 30px;
+}
+.container .con-wrap .shop-left .shop-left-3 table tr .t-r:hover {
+  cursor: pointer;
+  color: #b61d1d;
+}
+.container .con-wrap .shop-left .shop-left-3 .shop-left-3-bot {
+  width: 203px;
+  height: 14px;
+  margin: 0 auto;
+  background: url("../images/T4_12_sc_leftNav_c.gif") no-repeat top center;
+}
+.container .con-wrap .shop-left .shop-left-4 {
+  margin-top: 20px;
+  height: 260px;
+}
+.container .con-wrap .shop-left .shop-left-4 .shtop-4 {
+  display: block;
+  width: 203px;
+  height: 9px;
+  background: url("../images/T4_12_sc_leftNav_b_t.gif") no-repeat top center;
+}
+.container .con-wrap .shop-left .shop-left-4 .paihang {
+  width: 203px;
+  margin: 0 auto;
+  background: url("../images/T4_12_sc_leftNav_b.gif") repeat-y top center;
+}
+.container .con-wrap .shop-left .shop-left-4 .paihang ul {
+  padding-top: 15px;
+}
+.container .con-wrap .shop-left .shop-left-4 .paihang ul li {
+  width: 150px;
+  margin-left: 10px;
+  padding-left: 14px;
+  padding-right: 10px;
+  line-height: 28px;
+  border-bottom: 1px solid #f3f1e8;
+  font-size: 13px;
+}
+.container .con-wrap .shop-left .shop-left-4 .paihang ul li:hover {
+  color: #b61d1d;
+}
+.container .con-wrap .shop-left .shop-left-4 .paihang ul li:first-child a {
+  float: left;
+  line-height: 45px;
+  padding-right: 25px;
+}
+.container .con-wrap .shop-left .shop-left-4 .paihang ul li:last-child {
+  position: absolute;
+  width: 203px;
+  margin: 0;
+  padding: 0;
+  height: 4px;
+  padding-bottom: 30px;
+  background: url("../images/T4_12_sc_leftNav_c.gif") no-repeat top left;
+}
+.container .con-wrap .shop-left .shop-left-5 img {
+  display: block;
+}
+.container .con-wrap .shop-right {
+  float: right;
+}
+.container .con-wrap .shop-right .lazy-box {
+  position: relative;
+  width: 710px;
+  margin: 0 auto;
+}
+.container .con-wrap .shop-right .lazy-box .shop-lazy {
+  position: relative;
+  width: 496px;
+  height: 210px;
+  margin: 20px auto 40px;
+  overflow: hidden;
+}
+.container .con-wrap .shop-right .lazy-box .shop-lazy #shop-lazy-pic {
+  width: 1984px;
+  position: absolute;
+  overflow: hidden;
+}
+.container .con-wrap .shop-right .lazy-box .shop-lazy #shop-lazy-pic li {
+  float: left;
+}
+.container .con-wrap .shop-right .lazy-box #shop-left-btn {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 34px;
+  height: 61px;
+  cursor: pointer;
+  opacity: 0.2;
+  background: url("../images/T4_12_sc_banner_pageLeft.gif") no-repeat center;
+}
+.container .con-wrap .shop-right .lazy-box #shop-right-btn {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  opacity: 0.2;
+  width: 34px;
+  height: 61px;
+  cursor: pointer;
+  background: url("../images/T4_12_sc_banner_pageRight.gif") no-repeat center;
+}
+.container .con-wrap .shop-right .shop-right-2 h3 {
+  width: 739px;
+  height: 35px;
+  margin-top: 20px;
+  border-bottom: 1px solid #999999;
+  color: #292929;
+  font-size: 16px;
+  font-weight: bold;
+  text-indent: 1em;
+}
+.container .con-wrap .shop-right .shop-right-2 .right-b {
+  width: 717px;
+  height: 209px;
+  background: url("../images/T4_12_shc_left_BanBg.gif") no-repeat left bottom;
+}
+.container .con-wrap .shop-right .shop-right-2 .right-b ul {
+  margin-left: 40px;
+  color: #535353;
+  font-weight: bold;
+  font-size: 12px;
+}
+.container .con-wrap .shop-right .shop-right-2 .right-b ul li {
+  position: relative;
+  float: left;
+  width: 84px;
+  text-align: center;
+  margin: 40px 22px 0;
+}
+.container .con-wrap .shop-right .shop-right-2 .right-b ul li .icon-logo {
+  display: block;
+  width: 84px;
+  height: 87px;
+  padding-top: 4px;
+  background: url("../images/T4_12_shc_right_iconBg.gif") no-repeat left top;
+}
+.container .con-wrap .shop-right .shop-right-2 .right-b ul li p {
+  position: absolute;
+  width: 84px;
+  text-align: center;
+  top: 80px;
+}
+.container .con-wrap .shop-right .shop-right-2 .right-b ul li p a {
+  display: block;
+  margin-top: 40px;
+}
+.shop-footer {
+  height: 71px;
+  color: #e7e7e7;
+  font-size: 12px;
+  background: url("../images/t4_11_footer_Bg.gif") left top repeat-x;
+}
+.shop-footer .footer-word {
+  width: 960px;
+  margin: 0 auto;
+}
+.shop-footer .footer-word .copyright {
+  float: left;
+  margin-top: 21px;
+}
+.shop-footer .footer-word .aboutMe {
+  float: right;
+  margin-top: 21px;
+}
+.shop-footer .footer-word .aboutMe li {
+  padding: 0 9px;
+  float: left;
+}
+.shop-footer .footer-word .aboutMe li:not(:last-child) {
+  border-right: 1px dotted #ffffff;
+}
+.shop-footer .footer-word .aboutMe li a:hover {
+  color: #AE8646;
+}
+.show {
+  opacity: 1!important;
+}
